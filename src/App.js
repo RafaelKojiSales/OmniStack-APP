@@ -1,12 +1,8 @@
-import React, { Component } from "../node_modules/react";
+import React from "../node_modules/react";
 import "./App.css";
 
-import Main from "./pages/Main";
+import Routes from "./routes";
 
-class App extends Component {
-  render() {
-    return <Main />;
-  }
-}
+const App = () => <Routes />;
 
 export default App;
